@@ -1,0 +1,72 @@
+{
+  "project_name": "WeatherPredict",
+  "project_description": "A weather prediction platform for event planning that uses machine learning to provide accurate forecasts and actionable recommendations",
+  "core_features": [
+    "User authentication (email/password)",
+    "Event creation and management",
+    "Weather predictions powered by ML backend",
+    "Event dashboard with weather insights",
+    "Smart recommendations for event planning"
+  ],
+  "design_style": {
+    "aesthetic": "Modern, dramatic, atmospheric",
+    "inspiration": "Apple Weather, Dark Sky weather apps",
+    "color_palette": {
+      "primary": "Cyan blue (HSL: 200, 100%, 60%)",
+      "background": "Dark navy (HSL: 220, 26%, 8%)",
+      "secondary": "Deep blue-gray (HSL: 217, 33%, 15%)",
+      "accent": "Bright cyan for CTAs and highlights"
+    },
+    "visual_effects": [
+      "Glassmorphism (frosted glass effect)",
+      "Backdrop blur for cards and overlays",
+      "Subtle glow shadows on interactive elements",
+      "Smooth transitions and hover effects",
+      "Dramatic weather imagery"
+    ],
+    "typography": {
+      "headings": "Bold, large for weather data",
+      "body": "Clean, modern sans-serif",
+      "hierarchy": "Strong contrast between header sizes"
+    },
+    "layout": "Full-screen hero sections with overlays, card-based content layout, responsive grid system"
+  },
+  "technical_stack": {
+    "frontend": "React, TypeScript, Tailwind CSS, Vite",
+    "backend": "Lovable Cloud (Supabase)",
+    "database": "PostgreSQL with RLS policies",
+    "authentication": "Supabase Auth",
+    "styling": "Custom design system with HSL colors, glassmorphism, semantic tokens"
+  },
+  "user_flow": [
+    "Landing page with dramatic weather hero",
+    "Sign up/login flow",
+    "Dashboard showing events with weather predictions",
+    "Create event form (title, description, date, location)",
+    "View weather predictions with recommendations",
+    "Manage all created events"
+  ],
+  "database_schema": {
+    "profiles": "User profiles (id, email, full_name)",
+    "events": "User events (id, user_id, title, description, event_date, location)",
+    "weather_predictions": "Weather data (id, event_id, temperature, conditions, humidity, wind_speed, precipitation, recommendation)"
+  },
+  "key_design_elements": [
+    "Dark theme with cyan accents",
+    "Dramatic storm photography for hero sections",
+    "Translucent cards with border glow",
+    "Large temperature displays",
+    "Icon-based weather indicators",
+    "Smooth fade-in and scale animations",
+    "Backdrop blur effects throughout"
+  ],
+  "security": "Row Level Security (RLS) policies ensuring users only access their own data",
+  "future_enhancements": [
+    "Integration with Python ML backend",
+    "Real-time weather updates",
+    "Location autocomplete",
+    "Weather alerts and notifications",
+    "Historical weather data analysis",
+    "Social sharing of events"
+  ]
+}
